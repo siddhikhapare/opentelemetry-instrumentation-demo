@@ -1,6 +1,6 @@
 # Manual Instrumentation
 
-![reference](https://opentelemetry.io/docs/concepts/instrumenting/#manual-instrumentation)
+[reference](https://opentelemetry.io/docs/concepts/instrumenting/#manual-instrumentation)
 
 To enable manual instrumentation -
 1. Import the open telemetry API and SDK.
@@ -24,7 +24,7 @@ Here in this example mentioned below methods -
 
 More information on these :
 
-![moreinfo](https://opentelemetry.io/docs/reference/specification/trace/api/)
+https://opentelemetry.io/docs/reference/specification/trace/api/
 
 ## steps to follow instrument application manually
 
@@ -62,16 +62,13 @@ activeSpan.setStatus({code : opentelemetry.SpanStatusCode.ERROR, message: String
 activeSpan.recordException(e.message)
 ```
 
-More information on these:
-![manul]()
-
 ### Running app -
 
 - npm run books
 - npm run dashboard
 
 ###  Output-
-Refer detailed view of trace using console and zipkin exporter of this app:
+Refer detailed view of distributed trace using zipkin exporter of this app:
 ![image]()
 
 
