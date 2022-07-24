@@ -61,6 +61,10 @@ activeSpan.setStatus({code : opentelemetry.SpanStatusCode.ERROR, message: String
 ```javascript 
 activeSpan.recordException(e.message)
 ```
+More information on these :
+
+https://opentelemetry.io/docs/instrumentation/js/instrumentation/
+
 
 ### Running app -
 
@@ -69,6 +73,6 @@ activeSpan.recordException(e.message)
 
 ###  Output-
 Refer detailed view of distributed trace using zipkin exporter of this app:
-![image]()
+![image](https://github.com/siddhikhapare/opentelemetry-instrumentation-demo/blob/main/Manual-instrumentation/screenshots/dashboard.PNG)
 
 
